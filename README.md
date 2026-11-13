@@ -6,8 +6,9 @@ report.
 
 ## How to run
 
+```bash
 py main.py
-
+```
 
 
 Expected output: two trucks initially wait, the report shows 3 attended
@@ -55,8 +56,9 @@ and 2 waiting with an average of 25.0 min. Releasing an RTG serves Tiago
 
 ## Tests
 
+```bash
 py test_simulator.py
-
+```
 
 
 Plain asserts, no framework. Covers allocation when equipment is free,
